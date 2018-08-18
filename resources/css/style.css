@@ -8,7 +8,89 @@ html {
 }
 
 .banner {
+  display: flex;
   background-image: url(../images/moto.jpeg);
   height: 350px;
   background-size: cover;
+  align-items: center;
+}
+
+.box {
+  color: white;
+  background-color: black;
+  height: 150px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  background-color: firebrick;
+  height: 50px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav span {
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  background-color: white;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pen {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+.watch {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+.glasses {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+.description {
+  background-color: black;
+  color: white;
+  height: 40px;
+  text-align: center;
+}
+
+
+.information {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 90px;
+}
+
+.hours {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 90px;
+}
+
+.footer {
+  height: 150px;
+  background-color: black;
+  color: white;
 }
